@@ -15,4 +15,4 @@
 FROM scratch
 
 COPY liveness /server
-RUN chmod 777 /server/server.go
+RUN chmod 777 /server/liveness/server.go
